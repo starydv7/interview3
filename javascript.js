@@ -49,3 +49,7 @@ function check() {
     }
 }
 check();
+
+
+let data =" true";
+console.log("type of boolean value",typeof !data);
