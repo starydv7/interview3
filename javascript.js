@@ -34,3 +34,6 @@ console.log("add on first of array", arr);
 arr.pop();
 
 console.log("pop", arr);
+
+arr.push(10);
+console.log("push", arr);
