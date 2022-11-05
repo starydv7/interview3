@@ -14,3 +14,5 @@ console.log("sub", result);
 //
 const result1 = [] || 0 || true;
 console.log(result1);
+//Promise
+console.log(Promise.resolve(5));
