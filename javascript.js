@@ -9,4 +9,5 @@ const sub = () => {
 }
 //false ==0
 var result = sub();
-console.log("sub",result);
+console.log("sub", result);
+
