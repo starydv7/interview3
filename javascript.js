@@ -37,3 +37,15 @@ console.log("pop", arr);
 
 arr.push(10);
 console.log("push", arr);
+
+//check number is odd or even;
+var number = 2350;
+function check() {
+    if (number % 2 === 0) {
+        console.log("Even");
+    }
+    else {
+        console.log("Odd");
+    }
+}
+check();
