@@ -18,3 +18,7 @@ console.log(result1);
 console.log(Promise.resolve(5));
 //Promise fulfilled
 //
+const name = "Pawan";
+const age = 23;
+console.log("name",isNaN(name));
+console.log("age",isNaN(age));
