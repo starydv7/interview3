@@ -52,4 +52,8 @@ check();
 
 
 let data =" true";
-console.log("type of boolean value",typeof !data);
+console.log("type of boolean value", typeof !data);
+
+let data1 = ["pawan", "Yadav", "full"];
+delete data1[0];
+console.log("data1",data1);
