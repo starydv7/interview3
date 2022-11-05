@@ -11,3 +11,6 @@ const sub = () => {
 var result = sub();
 console.log("sub", result);
 
+//
+const result1 = [] || 0 || true;
+console.log(result1);
