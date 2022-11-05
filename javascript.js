@@ -30,3 +30,7 @@ console.log("remove first of array", arr);
 //unshift
 arr.unshift(7);
 console.log("add on first of array", arr);
+//to remove last element
+arr.pop();
+
+console.log("pop", arr);
