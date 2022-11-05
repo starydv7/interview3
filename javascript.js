@@ -21,4 +21,12 @@ console.log(Promise.resolve(5));
 const name = "Pawan";
 const age = 23;
 console.log("name",isNaN(name));
-console.log("age",isNaN(age));
+console.log("age", isNaN(age));
+
+var arr = [1, 2, 3, 4, 5];
+//remove first of array
+arr.shift();
+console.log("remove first of array", arr);
+//unshift
+arr.unshift(7);
+console.log("add on first of array", arr);
