@@ -84,3 +84,9 @@ let x= 1;
 let y = 1;
 let z = 2;
 console.log(x === y === --z);
+
+//hoisting
+//a1 = 10;
+console.log(a1);
+var a1;
+a1=10
