@@ -58,3 +58,12 @@ let data1 = ["pawan", "Yadav", "full"];
 delete data1[2];
 console.log("data1", data1);
 console.log(data1.length);
+
+
+//merge two array
+var array1 = [1, 2, 5, 6, 8];
+var array2 = [4, 6, 3, 2, 1, 4];
+const merge = [...array1, ...array2];
+console.log("Merge two Array", merge);
+merge.sort();
+console.log(merge);
