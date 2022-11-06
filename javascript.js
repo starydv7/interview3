@@ -89,4 +89,6 @@ console.log(x === y === --z);
 //a1 = 10;
 console.log(a1);
 var a1;
-a1=10
+a1 = 10
+//
+console.log(n1);
