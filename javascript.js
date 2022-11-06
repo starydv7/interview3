@@ -65,5 +65,6 @@ var array1 = [1, 2, 5, 6, 8];
 var array2 = [4, 6, 3, 2, 1, 4];
 const merge = [...array1, ...array2];
 console.log("Merge two Array", merge);
+//merge and sort it out
 merge.sort();
 console.log(merge);
