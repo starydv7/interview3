@@ -79,7 +79,7 @@ let b = 2;
 console.warn(--b === a);
 //--c become 1 and a is 1 so true;
 console.log(false == 0);
-
+//very tricky
 let x= 1;
 let y = 1;
 let z = 2;
