@@ -73,3 +73,8 @@ console.log(merge);
 let c = 3**3;
 console.log("cube of number", c ** c, "square ", c * c);
 console.log(c);
+//tricky
+let a = 1;
+let b = 2;
+console.warn(--b === a);
+//--c become 1 and a is 1 so true;
