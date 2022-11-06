@@ -92,4 +92,10 @@ var a1;
 a1 = 10
 //
 //console.log(n1);
-
+//setTimeout with var
+for (var i = 0; i < 3; i++){
+    setTimeout(() => console.log(i), 1000);
+}
+for (let i = 0; i < 4; i++){
+    setTimeout(() => console.log(i), 1);
+}
