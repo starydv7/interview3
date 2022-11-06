@@ -92,3 +92,4 @@ var a1;
 a1 = 10
 //
 //console.log(n1);
+
