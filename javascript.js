@@ -78,3 +78,4 @@ let a = 1;
 let b = 2;
 console.warn(--b === a);
 //--c become 1 and a is 1 so true;
+console.log(false == 0);
