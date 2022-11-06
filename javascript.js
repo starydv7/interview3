@@ -70,5 +70,6 @@ merge.sort();
 console.log(merge);
 
 //square of number
-let c = 5;
-console.log("cube of number",c ** c,"square ",c*c);
+let c = 3**3;
+console.log("cube of number", c ** c, "square ", c * c);
+console.log(c);
