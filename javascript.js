@@ -91,4 +91,4 @@ console.log(a1);
 var a1;
 a1 = 10
 //
-console.log(n1);
+//console.log(n1);
