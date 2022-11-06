@@ -56,4 +56,5 @@ console.log("type of boolean value", typeof !data);
 
 let data1 = ["pawan", "Yadav", "full"];
 delete data1[2];
-console.log("data1",data1);
+console.log("data1", data1);
+console.log(data1.length);
