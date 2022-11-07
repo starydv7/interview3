@@ -93,12 +93,12 @@ a1 = 10
 //
 //console.log(n1);
 //setTimeout with var
-for (var i = 0; i < 3; i++){
-    setTimeout(() => console.log("with Var keyword",i), 1000);
-}
-for (let i = 0; i < 4; i++){
-    setTimeout(() => console.log(i), 1);
-}
+// for (var i = 0; i < 3; i++){
+//     setTimeout(() => console.log("with Var keyword",i), 1000);
+// }
+// for (let i = 0; i < 4; i++){
+//     setTimeout(() => console.log(i), 1);
+// }
 //cant redclare var and let only var can redeclare
 var h = 10;
 //let h = 11;
