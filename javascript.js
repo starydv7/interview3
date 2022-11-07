@@ -121,5 +121,12 @@ let number1 = 0;
 console.log(number1++);
 console.log(++number1);
 console.log(number1);
+function getAge(...args) {
+    console.log("type of args",typeof (args));
+}
+getAge();
 
+//eval
+const sum1 = eval("10 * 10 + 5");
+console.log(sum1);
 
