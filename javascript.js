@@ -115,5 +115,11 @@ function sum(a, b) {
     return res1;
 }
 console.log("sum", sum(1, "2"));
-console.log("type of Sum",typeof (res));
+console.log("type of Sum", typeof (res));
+//Another series
+let number1 = 0;
+console.log(number1++);
+console.log(++number1);
+console.log(number1);
+
 
