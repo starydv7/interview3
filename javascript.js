@@ -168,3 +168,6 @@ const person = {
 for (var items in person) {
     console.log(items);
 }
+let data10 = 3 + 4 + "5";
+var arr10 = 3 + "4";
+console.log("type of data is",arr10);
