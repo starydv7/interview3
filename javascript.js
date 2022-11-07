@@ -158,3 +158,5 @@ array5[8] = 28;
 console.log(array5);
 array5[19] = array5;
 console.log(array5);
+var name10="Pawan"
+console.log("bar to string",[...name10]);
