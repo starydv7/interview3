@@ -105,6 +105,15 @@ var h = 10;
 console.log(h);
 let a2 = 10;
 let b2 = new Number(10);
+console.log(a2==b2)
 console.log("cannot true", a2 === b2);
 //b become object
+
+//sum
+function sum(a, b) {
+    let res1 = a + b;
+    return res1;
+}
+console.log("sum", sum(1, "2"));
+console.log("type of Sum",typeof (res));
 
