@@ -139,3 +139,9 @@ for (var i = 1; i < 5; i++){
     }
     console.log(i);
 }
+const foo = () => console.log("First");
+const bar = () => setTimeout(() => console.log("second"));
+const baz = () => console.log("third");
+foo();
+bar();
+baz();
