@@ -159,4 +159,12 @@ console.log(array5);
 array5[19] = array5;
 console.log(array5);
 var name10="Pawan"
-console.log("bar to string",[...name10]);
+console.log("bar to string", [...name10]);
+//for in loop
+const person = {
+    name: "Pawan",
+    age: 21,
+};
+for (var items in person) {
+    console.log(items);
+}
