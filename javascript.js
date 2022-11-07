@@ -133,3 +133,9 @@ console.log(sum1);
 const obj = { a: "one", b: "two", a: "repeat" };
 console.log(obj);
 //last one is preferred always
+for (var i = 1; i < 5; i++){
+    if (i ===3) {
+        continue;
+    }
+    console.log(i);
+}
