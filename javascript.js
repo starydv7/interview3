@@ -99,3 +99,7 @@ for (var i = 0; i < 3; i++){
 for (let i = 0; i < 4; i++){
     setTimeout(() => console.log(i), 1);
 }
+//cant redclare var and let only var can redeclare
+var h = 10;
+//let h = 11;
+console.log(h);
