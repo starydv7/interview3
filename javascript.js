@@ -156,3 +156,5 @@ Click
 const array5 = [1, 2, 3, 5];
 array5[8] = 28;
 console.log(array5);
+array5[19] = array5;
+console.log(array5);
