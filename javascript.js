@@ -104,7 +104,7 @@ var h = 10;
 //let h = 11;
 console.log(h);
 let a2 = 10;
-let b2 = new Number(23);
+let b2 = new Number(10);
 console.log("cannot true", a2 === b2);
 //b become object
 
