@@ -103,3 +103,8 @@ for (let i = 0; i < 4; i++){
 var h = 10;
 //let h = 11;
 console.log(h);
+let a2 = 10;
+let b2 = new Number(23);
+console.log("cannot true", a2 === b2);
+//b become object
+
