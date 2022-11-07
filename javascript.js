@@ -145,3 +145,11 @@ const baz = () => console.log("third");
 foo();
 bar();
 baz();
+<div onClick="alert(1)">
+    <div onClick="alert(2)">
+        <button onClick="alert(3)">
+Click
+        </button>
+    </div>
+
+</div>
