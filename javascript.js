@@ -153,3 +153,6 @@ Click
     </div>
 
 </div> */}
+const array5 = [1, 2, 3, 5];
+array5[8] = 28;
+console.log(array5);
