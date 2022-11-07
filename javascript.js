@@ -130,3 +130,4 @@ getAge();
 const sum1 = eval("10 * 10 + 5");
 console.log(sum1);
 
+
