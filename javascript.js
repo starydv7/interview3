@@ -132,3 +132,4 @@ console.log(sum1);
 
 const obj = { a: "one", b: "two", a: "repeat" };
 console.log(obj);
+//last one is preferred always
