@@ -170,4 +170,7 @@ for (var items in person) {
 }
 let data10 = 3 + 4 + "5";
 var arr10 = 3 + "4";
-console.log("type of data is",typeof arr10);
+console.log("type of data is", typeof arr10);
+
+//weird
+console.log(typeof 3 + 4 + "5");
