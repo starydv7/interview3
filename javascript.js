@@ -237,6 +237,6 @@ function multiply(multiplier, ...theArgs) {
   return theArgs.map((element) => multiplier * element);
 }
 
-const arr15 = multiply(2, 15, 25, 42);
+const arr15 = multiply(5,15, 25, 42,4);
 console.log("rest operator", arr15);
 //[30, 50, 84]
