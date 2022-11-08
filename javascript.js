@@ -204,7 +204,7 @@ modifyArray(arr, function () {
     console.log("array has been modified", arr);
 })
 function addNumber(a, b, c, ...others) {
-    console.log("spread operator",others)
+    console.log("rest operator",others)
     return a + b + c
 }
 
