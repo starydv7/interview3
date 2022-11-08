@@ -174,3 +174,10 @@ console.log("type of data is", typeof arr10);
 
 //weird
 console.log(typeof 3 + 4 + "5");
+
+const user = {
+    name: "Pawan Yadav",
+    age: 24,
+};
+delete user.age;
+console.log(user);
