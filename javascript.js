@@ -223,3 +223,20 @@ function getNames(name1, name2, name3) {
 getNames(names[0], names[1], names[2]);
 getNames(...names);
 getNames(names);
+//
+function fun1(...theArgs) {
+    console.log("length of arguments", theArgs.length);
+    console.warn(theArgs);
+}
+
+fun1(); // 0
+fun1(5); // 1
+fun1(5, 6, 7); // 3
+
+function multiply(multiplier, ...theArgs) {
+  return theArgs.map((element) => multiplier * element);
+}
+
+const arr15 = multiply(2, 15, 25, 42);
+console.log("rest operator", arr15);
+// [30, 50, 84]
