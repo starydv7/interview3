@@ -100,90 +100,98 @@ a1 = 10
 //     setTimeout(() => console.log(i), 1);
 // }
 //cant redclare var and let only var can redeclare
-var h = 10;
-//let h = 11;
-console.log(h);
-let a2 = 10;
-let b2 = new Number(10);
-console.log(a2==b2)
-console.log("cannot true", a2 === b2);
-//b become object
+// var h = 10;
+// //let h = 11;
+// console.log(h);
+// let a2 = 10;
+// let b2 = new Number(10);
+// console.log(a2==b2)
+// console.log("cannot true", a2 === b2);
+// //b become object
 
 //sum
-function sum(a, b) {
-    let res1 = a + b;
-    return res1;
-}
-console.log("sum", sum(1, "2"));
-console.log("type of Sum", typeof (res));
-//Another series
-let number1 = 0;
-console.log(number1++);
-console.log(++number1);
-console.log(number1);
-function getAge(...args) {
-    console.log("type of args",typeof (args));
-}
-getAge();
+// function sum(a, b) {
+//     let res1 = a + b;
+//     return res1;
+// }
+// console.log("sum", sum(1, "2"));
+// console.log("type of Sum", typeof (res));
+// //Another series
+// let number1 = 0;
+// console.log(number1++);
+// console.log(++number1);
+// console.log(number1);
+// function getAge(...args) {
+//     console.log("type of args",typeof (args));
+// }
+// getAge();
 
-//eval
-const sum1 = eval("10 * 10 + 5");
-console.log(sum1);
+// //eval
+// const sum1 = eval("10 * 10 + 5");
+// console.log(sum1);
 
-const obj = { a: "one", b: "two", a: "repeat" };
-console.log(obj);
-//last one is preferred always
-for (var i = 1; i < 5; i++){
-    if (i ===3) {
-        continue;
-    }
-    console.log(i);
-}
-const foo = () => console.log("First");
-const bar = () => setTimeout(() => console.log("second"));
-const baz = () => console.log("third");
-foo();
-bar();
-baz();
-{/* <div onClick="alert(1)">
-    <div onClick="alert(2)">
-        <button onClick="alert(3)">
-Click
-        </button>
-    </div>
+// const obj = { a: "one", b: "two", a: "repeat" };
+// console.log(obj);
+// //last one is preferred always
+// for (var i = 1; i < 5; i++){
+//     if (i ===3) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+// const foo = () => console.log("First");
+// const bar = () => setTimeout(() => console.log("second"));
+// const baz = () => console.log("third");
+// foo();
+// bar();
+// baz();
+// {/* <div onClick="alert(1)">
+//     <div onClick="alert(2)">
+//         <button onClick="alert(3)">
+// Click
+//         </button>
+//     </div>
 
-</div> */}
-const array5 = [1, 2, 3, 5];
-array5[8] = 28;
-console.log(array5);
-array5[19] = array5;
-console.log(array5);
-var name10="Pawan"
-console.log("bar to string", [...name10]);
-//for in loop
-const person = {
-    name: "Pawan",
-    age: 21,
+// </div> */}
+// const array5 = [1, 2, 3, 5];
+// array5[8] = 28;
+// console.log(array5);
+// array5[19] = array5;
+// console.log(array5);
+// var name10="Pawan"
+// console.log("bar to string", [...name10]);
+// //for in loop
+// const person = {
+//     name: "Pawan",
+//     age: 21,
+// };
+// for (var items in person) {
+//     console.log(items);
+// }
+// let data10 = 3 + 4 + "5";
+// var arr10 = 3 + "4";
+// console.log("type of data is", typeof arr10);
+
+// //weird
+// console.log(typeof 3 + 4 + "5");
+
+// const user = {
+//     name: "Pawan Yadav",
+//     age: 24,
+// };
+// delete user.age;
+// console.log(user);
+
+// const func = (function (a) {
+//     delete a;
+//     return a;
+// })(5);
+// console.log(func);
+const userDetails = {
+    Name: "Pawan Yadav",
+    Age: 24,
+    IsTrue: true,
 };
-for (var items in person) {
-    console.log(items);
+for (key in userDetails) {
+    console.log(key,userDetails[key]);
 }
-let data10 = 3 + 4 + "5";
-var arr10 = 3 + "4";
-console.log("type of data is", typeof arr10);
-
-//weird
-console.log(typeof 3 + 4 + "5");
-
-const user = {
-    name: "Pawan Yadav",
-    age: 24,
-};
-delete user.age;
-console.log(user);
-
-const func = (function (a) {
-    delete a;
-    return a;
-})(5);
-console.log(func);
