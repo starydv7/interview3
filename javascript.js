@@ -192,6 +192,6 @@ const userDetails = {
     Age: 24,
     IsTrue: true,
 };
-for (key in userDetails) {
+for(key in userDetails) {
     console.log(key,userDetails[key]);
 }
