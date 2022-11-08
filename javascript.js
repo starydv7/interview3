@@ -181,3 +181,9 @@ const user = {
 };
 delete user.age;
 console.log(user);
+
+const func = (function (a) {
+    delete a;
+    return a;
+})(5);
+console.log(func);
