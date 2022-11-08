@@ -200,6 +200,13 @@ function modifyArray(arr, callback) {
     callback();
 }
 var arr = [1, 2, 3, 4, 5];
-modifyArray(arrr, function () {
+modifyArray(arr, function () {
     console.log("array has been modified", arr);
 })
+function addNumber(a, b, c, ...others) {
+    console.log("spread operator",others)
+    return a + b + c
+}
+
+const result3 = addNumber(8, 9, 10, 7, 4, 3);
+console.log(result3);
