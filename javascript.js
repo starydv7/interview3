@@ -216,3 +216,10 @@ function addNumber(a, b, c, ...others) {
 // }
 // var result5=getNames();
 // console.log(...result5);
+var names = ["Pawan", "Yadav", "Full Stack Developer"];
+function getNames(name1, name2, name3) {
+    console.log(name1,name2,name3)
+}
+getNames(names[0], names[1], names[2]);
+getNames(...names);
+getNames(names);
