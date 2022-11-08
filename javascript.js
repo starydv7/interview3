@@ -208,5 +208,11 @@ function addNumber(a, b, c, ...others) {
     return a + b + c
 }
 
-const result3 = addNumber(8, 9, 10, 7, 4, 3);
-console.log(result3);
+// const result3 = addNumber(8, 9, 10, 7, 4, 3);
+// console.log(result3);
+//  var names = ["Ajay", "Anuj", "Pawan"];
+// function getNames(...names) {
+//     console.log(...names);
+// }
+// var result5=getNames();
+// console.log(...result5);
