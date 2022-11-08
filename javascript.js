@@ -240,3 +240,8 @@ function multiply(multiplier, ...theArgs) {
 const arr15 = multiply(5,15, 25, 42,4);
 console.log("rest operator", arr15);
 //[30, 50, 84]
+function square(number) {
+    return number * number;
+}
+const res101 = square(5);
+console.log("res",res101);
