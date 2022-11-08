@@ -239,4 +239,4 @@ function multiply(multiplier, ...theArgs) {
 
 const arr15 = multiply(2, 15, 25, 42);
 console.log("rest operator", arr15);
-// [30, 50, 84]
+//[30, 50, 84]
