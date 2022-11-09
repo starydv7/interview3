@@ -253,3 +253,9 @@ const students = {
 }
 const { ...rest } = students;
 console.log(rest);
+
+var newStudents = {
+    ...students,
+    age:25,
+}
+console.log(newStudents);
