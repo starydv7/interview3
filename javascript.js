@@ -252,7 +252,7 @@ const students = {
     hobbies: ["sex", "cricket"],
 }
 const { ...rest } = students;
-console.log(rest);
+//console.log(rest);
 
 var newStudents = {
     ...students,
