@@ -244,4 +244,12 @@ function square(number) {
     return number * number;
 }
 const res101 = square(5);
-console.log("res",res101);
+console.log("res", res101);
+
+const students = {
+    name: "Pawan",
+    age: 24,
+    hobbies: ["sex", "cricket"],
+}
+const { ...rest } = students;
+console.log(rest);
