@@ -59,3 +59,11 @@ function getNumber(arr, l) {
 }
 const ans=getNumber(arr,l);
 console.log(ans);
+//spread rest in object
+const students = {
+    name: "Pawan",
+    age: 24,
+    hobbies: ["sex", "cricket"],
+}
+const { ...rest } = students;
+console.log(rest);
