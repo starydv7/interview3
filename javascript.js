@@ -245,7 +245,6 @@ function square(number) {
 }
 const res101 = square(5);
 console.log("res", res101);
-
 const students = {
     name: "Pawan",
     age: 24,
@@ -253,7 +252,6 @@ const students = {
 }
 const { ...rest } = students;
 //console.log(rest);
-
 var newStudents = {
     ...students,
     age:25,
