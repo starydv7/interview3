@@ -31,7 +31,7 @@ var student = [
       { name: "Tan", rollNumber: 203, marks: 70 },
         { name: "Yadav", rollNumber: 243, marks: 10 },
           {name:"Krish",rollNumber:238,marks:107},
-            {name:"james",rollNumber:73,marks:140}
+            {name:"james",rollNumber:73,marks:14}
 ]
 let names = [];
 for (var i = 0; i < student.length; i++){
@@ -41,4 +41,7 @@ console.log(names);
 
 //same with Map() function
 const namesMap = student.map((item) => item.name.toLowerCase())
-console.log("map function Used in Array",namesMap);
+console.log("map function Used in Array", namesMap);
+
+//filter 
+const filterMarks = student.filter((item) => item.marks > 60);
