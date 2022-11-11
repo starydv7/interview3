@@ -27,11 +27,11 @@ const sum = filterArr.reduce((acc, current, i, arr) => {
 console.log(sum);
 
 var student = [
-    { name: "Pawan", rollNumber: 23, marks: 100 },
-      { name: "Tan", rollNumber: 203, marks: 70 },
-        { name: "Yadav", rollNumber: 243, marks: 10 },
-          {name:"Krish",rollNumber:238,marks:107},
-            {name:"james",rollNumber:73,marks:14}
+    { name: "Pawan", rollNumber: 23, marks: 400 },
+      { name: "Tan", rollNumber: 3, marks: 170 },
+        { name: "Yadav", rollNumber: 13, marks: 108 },
+          {name:"Krish",rollNumber:28,marks:107},
+            {name:"james",rollNumber:3,marks:144}
 ]
 let names = [];
 for (var i = 0; i < student.length; i++){
@@ -45,3 +45,9 @@ console.log("map function Used in Array", namesMap);
 
 //filter 
 const filterMarks = student.filter((item) => item.marks > 60);
+const details = student.filter((item) =>
+    item.marks > 05 && item.rollNumber > 10);
+let nameDetails = namesMap.name;
+let rollDetails = student.rollNumber;
+console.log("details", details);
+//  console.log(nameDetails, rollDetails);
