@@ -55,3 +55,6 @@ console.log("details", details);
 //sum of marks of all students
 const marksSum = student.reduce((acc, curr) => acc + curr.marks, 0)
 console.log(marksSum);
+//filter and map
+const combine = student.filter((item) => item.marks > 40).map((item) => item.name);
+console.log(combine);
