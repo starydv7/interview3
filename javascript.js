@@ -257,3 +257,8 @@ var newStudents = {
     age:25,
 }
 console.log(newStudents);
+
+//remove duplicate from array
+var dupArr = [1, 2, 2, 1];
+const resultArr = new Set(dupArr);
+console.log(resultArr);
