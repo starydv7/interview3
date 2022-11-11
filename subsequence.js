@@ -52,3 +52,6 @@ const details = student.filter((item) =>
 console.log("details", details);
 //  console.log(nameDetails, rollDetails);
 // console.log(student.name)
+//sum of marks of all students
+const marksSum = student.reduce((acc, curr) => acc + curr.marks, 0)
+console.log(marksSum);
