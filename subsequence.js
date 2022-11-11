@@ -47,7 +47,8 @@ console.log("map function Used in Array", namesMap);
 const filterMarks = student.filter((item) => item.marks > 60);
 const details = student.filter((item) =>
     item.marks > 05 && item.rollNumber > 10);
-let nameDetails = namesMap.name;
-let rollDetails = student.rollNumber;
+// let nameDetails = namesMap.name;
+// let rollDetails = student.rollNumber;
 console.log("details", details);
 //  console.log(nameDetails, rollDetails);
+// console.log(student.name)
