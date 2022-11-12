@@ -10,7 +10,8 @@
   text-align: center;
   position: relative;
   margin-top: 70px;
-  
+  background-color: white;
+ 
 }
 input{
   width: 300px;
@@ -27,9 +28,16 @@ input{
 label{
   color:#ec3e04;
   font-weight: 800;
+  background-color: hsl(97, 89%, 47%);
+  border-radius: 5px;
+  width: 50px;
+  
 }
 .btntag{
   color: white;
   border-radius: 10px;
   background-color: black;
+}
+.form{
+ width: 40%;
 }

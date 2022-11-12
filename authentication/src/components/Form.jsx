@@ -29,7 +29,7 @@ const Form = () => {
 
   return (
     <div className="maindiv">
-      <form onSubmit={(e) => submit(e)}>
+      <form onSubmit={(e) => submit(e)} className="form">
         <label>Name</label>
         <br />
         <input
