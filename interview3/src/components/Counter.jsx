@@ -11,7 +11,8 @@ const Counter = () => {
        console.log(count);
      };
     useEffect(() => {
-        add();
+      add();
+      minus();
     },[]);
     
   return (
