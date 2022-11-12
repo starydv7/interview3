@@ -28,9 +28,10 @@ const Form = () => {
     }
 
   return (
-    <div>
+    <div className="maindiv">
       <form onSubmit={(e) => submit(e)}>
         <label>Name</label>
+        <br />
         <input
           type="text"
           placeholder="Name"
@@ -39,7 +40,9 @@ const Form = () => {
           value={data.name}
         />
         <br />
+        <br />
         <label>Avatar</label>
+        <br />
         <input
           type="url"
           placeholder="Image Url"
@@ -49,6 +52,7 @@ const Form = () => {
         />
         <br />
         <label>Data</label>
+        <br />
         <input
           type="date"
           placeholder="Date"
@@ -58,6 +62,7 @@ const Form = () => {
         />
         <br />
         <label>Title</label>
+        <br />
         <input
           type="text"
           placeholder="Title..."
@@ -67,6 +72,7 @@ const Form = () => {
         />
         <br />
         <label>Mobile</label>
+        <br />
         <input
           type="text"
           placeholder="Mobile..."
@@ -76,6 +82,7 @@ const Form = () => {
         />
         <br />
         <label>Email</label>
+        <br />
         <input
           type="text"
           placeholder="Email..."
@@ -85,6 +92,8 @@ const Form = () => {
         />
 
         <br />
+        <label>Role</label>
+        <br />
         <input
           type="text"
           placeholder="Role..."
@@ -92,7 +101,9 @@ const Form = () => {
           id="role"
           value={data.role}
         />
-        <button>Save Data to API</button>
+        <br />
+        <br />
+        <button className='btntag'>Save Data to API</button>
       </form>
     </div>
   );
