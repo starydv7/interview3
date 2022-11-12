@@ -29,82 +29,84 @@ const Form = () => {
 
   return (
     <div className="maindiv">
-      <form onSubmit={(e) => submit(e)} className="form">
-        <label>Name</label>
-        <br />
-        <input
-          type="text"
-          placeholder="Name"
-          onChange={(e) => handle(e)}
-          id="name"
-          value={data.name}
-        />
-        <br />
-        <br />
-        <label>Avatar</label>
-        <br />
-        <input
-          type="url"
-          placeholder="Image Url"
-          onChange={(e) => handle(e)}
-          id="image"
-          value={data.image}
-        />
-        <br />
-        <label>Data</label>
-        <br />
-        <input
-          type="date"
-          placeholder="Date"
-          onChange={(e) => handle(e)}
-          id="date"
-          value={data.date}
-        />
-        <br />
-        <label>Title</label>
-        <br />
-        <input
-          type="text"
-          placeholder="Title..."
-          onChange={(e) => handle(e)}
-          id="title"
-          value={data.name}
-        />
-        <br />
-        <label>Mobile</label>
-        <br />
-        <input
-          type="text"
-          placeholder="Mobile..."
-          onChange={(e) => handle(e)}
-          id="mobile"
-          value={data.mobile}
-        />
-        <br />
-        <label>Email</label>
-        <br />
-        <input
-          type="text"
-          placeholder="Email..."
-          onChange={(e) => handle(e)}
-          id="email"
-          value={data.email}
-        />
+      <div className='maindiv2'>
+        <form onSubmit={(e) => submit(e)} className="form">
+          <label>Name</label>
+          <br />
+          <input
+            type="text"
+            placeholder="Name"
+            onChange={(e) => handle(e)}
+            id="name"
+            value={data.name}
+          />
+          <br />
+          <br />
+          <label>Avatar</label>
+          <br />
+          <input
+            type="url"
+            placeholder="Image Url"
+            onChange={(e) => handle(e)}
+            id="image"
+            value={data.image}
+          />
+          <br />
+          <label>Data</label>
+          <br />
+          <input
+            type="date"
+            placeholder="Date"
+            onChange={(e) => handle(e)}
+            id="date"
+            value={data.date}
+          />
+          <br />
+          <label>Title</label>
+          <br />
+          <input
+            type="text"
+            placeholder="Title..."
+            onChange={(e) => handle(e)}
+            id="title"
+            value={data.name}
+          />
+          <br />
+          <label>Mobile</label>
+          <br />
+          <input
+            type="text"
+            placeholder="Mobile..."
+            onChange={(e) => handle(e)}
+            id="mobile"
+            value={data.mobile}
+          />
+          <br />
+          <label>Email</label>
+          <br />
+          <input
+            type="text"
+            placeholder="Email..."
+            onChange={(e) => handle(e)}
+            id="email"
+            value={data.email}
+          />
 
-        <br />
-        <label>Role</label>
-        <br />
-        <input
-          type="text"
-          placeholder="Role..."
-          onChange={(e) => handle(e)}
-          id="role"
-          value={data.role}
-        />
-        <br />
-        <br />
-        <button className='btntag'>Save Data to API</button>
-      </form>
+          <br />
+          <label>Role</label>
+          <br />
+          <input
+            type="text"
+            placeholder="Role..."
+            onChange={(e) => handle(e)}
+            id="role"
+            value={data.role}
+          />
+          <br />
+          <br />
+          <button className="btntag">Save Data to API</button>
+        </form>
+      </div>
     </div>
   );
 }

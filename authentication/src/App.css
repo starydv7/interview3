@@ -25,6 +25,9 @@ input{
   font-size: 17px;
   font-stretch: expanded;
 }
+input::after{
+  background-color: blueviolet;
+}
 label{
   color:#ec3e04;
   font-weight: 800;
@@ -39,5 +42,6 @@ label{
   background-color: black;
 }
 .form{
- width: 40%;
+ width: 100%;
+
 }
