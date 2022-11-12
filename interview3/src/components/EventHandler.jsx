@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 
 const EventHandler = () => {
-    const [num12, setNum1] = useState("");
+    const [num12, setNum1] = useState(0);
     const getInput = (e) => {
         console.log(e.target.value);
+
     }
     const addNum = (num1, num2) => {
         console.log(num1 + num2);
@@ -13,8 +14,8 @@ const EventHandler = () => {
       <div>
           <h3>{num12}</h3>
           <input placeholder='add something..'
-              onChange={getInput} value="value" />
-          <button onClick={()=>addNum(2,3)}>Add Number </button>
+              onChange={getInput} />
+          <button onClick={()=>addNum(414,2541)}>Add Number </button>
     </div>
   )
 }
