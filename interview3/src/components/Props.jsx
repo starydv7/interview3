@@ -7,7 +7,7 @@ const Props = () => {
   return (
       <div>
           <Child name={name} />
-          <button onClick={()=>setName("Yadav")}>Change Name</button>
+          <button onClick={()=>setName("Yadav ji")}>Change Name</button>
     </div>
   )
 }
