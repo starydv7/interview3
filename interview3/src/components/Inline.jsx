@@ -16,7 +16,7 @@ const Inline = () => {
     }, [])
     
   return (
-    <div>Inline</div>
+    <div></div>
   )
 }
 
