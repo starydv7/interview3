@@ -37,9 +37,11 @@ label{
   
 }
 .btntag{
-  color: white;
+  color: red;
   border-radius: 10px;
   background-color: black;
+  font-weight:800;
+
 }
 .form{
  width: 100%;

@@ -19,13 +19,16 @@ const Form = () => {
           .then((res) => {
             console.log(res.data);
           });
-    }
+  }
+  
     function handle(e) {
         const newData = { ...data }
         newData[e.target.id] = e.target.value;
-        setData(newData)
-        console.log("PsotData", newData);
-    }
+      setData(newData);
+      alert("data Successfully upload Thank You")
+        console.log("PostData", newData);
+  }
+  
 
   return (
     <div className="maindiv">
