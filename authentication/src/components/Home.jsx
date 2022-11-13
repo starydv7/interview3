@@ -13,7 +13,7 @@ const Home = () => {
   }
   useEffect(() => {
     getData();
-  }, [data])
+  }, [])
   
   return (
     <div>Home</div>
