@@ -26,7 +26,7 @@ const Form = () => {
         newData[e.target.id] = e.target.value;
       setData(newData);
       // alert("data Successfully upload Thank You")
-      //   console.log("PostData", newData);
+         console.log("PostData", newData);
   }
   
 
