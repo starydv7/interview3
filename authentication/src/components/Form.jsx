@@ -20,7 +20,6 @@ const Form = () => {
             console.log(res.data);
           });
   }
-  
     function handle(e) {
         const newData = { ...data }
         newData[e.target.id] = e.target.value;
