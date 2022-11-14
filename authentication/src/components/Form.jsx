@@ -27,8 +27,6 @@ const Form = () => {
       // alert("data Successfully upload Thank You")
          console.log("PostData", newData);
   }
-  
-
   return (
     <div className="maindiv">
       <div className='maindiv2'>
