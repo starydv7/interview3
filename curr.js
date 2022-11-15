@@ -5,3 +5,5 @@ function sum(a) {
 }
 const res = sum(4)(5);
 console.log(res);
+
+

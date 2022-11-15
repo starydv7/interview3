@@ -248,7 +248,7 @@ console.log("res", res101);
 const students = {
     name: "Pawan",
     age: 24,
-    hobbies: ["sex", "cricket"],
+    hobbies: ["x", "cricket"],
 }
 const { ...rest } = students;
 //console.log(rest);
