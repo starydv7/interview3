@@ -23,14 +23,14 @@ const Home = () => {
   }, [])
   
   return (
+    <>
     <div>
-      {data.map((item)=> {
-        <div key={item.id}>
-          <p>{item.name}</p>
-        </div>;
-         
-      })}
-    </div>
+        {data.map((el) => (
+          <p>{el.name}</p>
+          
+      ))}
+      </div>
+      </>
   )
 }
 
