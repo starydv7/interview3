@@ -24,14 +24,20 @@ const Home = () => {
   
   return (
     <>
-    <div>
+      <div>
         {data.map((el) => (
-          <p>{el.name}</p>
-          
-      ))}
+          <div key={el.id} className="result">
+            ID:{el.id}
+            <p> Name:{el.name}</p>
+            <p>Contact:{el.mobile}</p>
+            <p>Role:{el.role}</p>
+            <p>Email:{el.email}</p>
+            <img src={el.image} alt="photos" style={{borderRadius:"10px",height:"100px",width:"100px"}} />
+          </div>
+        ))}
       </div>
-      </>
-  )
+    </>
+  );
 }
 
 export default Home
