@@ -8,6 +8,5 @@
        }
  
        // Driver code
- 
        let N = 50;
        console.log(findComplement(N));
